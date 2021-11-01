@@ -1,0 +1,2 @@
+cd /d "C:\Users\dylan\OneDrive\Desktop\Battle_Eye_Project\ESPBar\Samples\WidgetSampleCX" &msbuild "WidgetSampleCX.vcxproj" /t:sdvViewer /p:configuration="Debug" /p:platform="x64" /p:SolutionDir="C:\Users\dylan\OneDrive\Desktop\Battle_Eye_Project\DriverDebug" 
+exit %errorlevel% 
