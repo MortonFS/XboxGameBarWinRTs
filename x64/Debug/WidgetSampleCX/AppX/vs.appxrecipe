@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-MAIN</Machine>
+    <WindowsUser>Morton</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>Cheat.ch</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Cheat</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B94B83AB6AF2CF45FFCEDBCD157CB36DBC172AF4CF6CC0FBCE222F51AFF3DB00</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Cheat.ch_1.0.27.0_x64__h24fcnvr18sfw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Cheat.ch_h24fcnvr18sfw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Cheat.ch</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Cheat</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.27.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T15:00:21.983</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\Cheat.exe">
+      <PackagePath>Cheat.exe</PackagePath>
+      <Modified>2024-05-24T15:00:05.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Win2D.uwp.1.26.0\build\native\..\..\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2024-05-24T11:17:50.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Microsoft.Gaming.XboxGameBar.5.6.210414002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.Authentication.winmd">
+      <PackagePath>Microsoft.Gaming.XboxGameBar.Authentication.winmd</PackagePath>
+      <Modified>2024-05-24T14:31:25.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Microsoft.Gaming.XboxGameBar.5.6.210414002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.Restricted.winmd">
+      <PackagePath>Microsoft.Gaming.XboxGameBar.Restricted.winmd</PackagePath>
+      <Modified>2024-05-24T14:31:25.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Microsoft.Gaming.XboxGameBar.5.6.210414002\lib\uap10.0\Microsoft.Gaming.XboxGameBar.winmd">
+      <PackagePath>Microsoft.Gaming.XboxGameBar.winmd</PackagePath>
+      <Modified>2024-05-24T14:31:25.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Win2D.uwp.1.26.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2024-05-24T11:17:50.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\WidgetSampleCX.winmd">
+      <PackagePath>WidgetSampleCX.winmd</PackagePath>
+      <Modified>2024-05-24T15:00:02.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-05-24T11:17:50.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-24T11:17:50.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2024-05-24T15:00:21.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\Widget1.xbf">
+      <PackagePath>Widget1.xbf</PackagePath>
+      <Modified>2024-05-24T15:00:21.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2019-03-18T17:50:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Microsoft.Gaming.XboxGameBar.5.6.210414002\build\..\private\Microsoft.Gaming.XboxGameBar.Private.winmd">
+      <PackagePath>Microsoft.Gaming.XboxGameBar.Private.winmd</PackagePath>
+      <Modified>2024-05-24T14:31:25.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\packages\Microsoft.Gaming.XboxGameBar.5.6.210414002\build\..\runtimes\win10-x64\native\Microsoft.Gaming.XboxGameBar.dll">
+      <PackagePath>Microsoft.Gaming.XboxGameBar.dll</PackagePath>
+      <Modified>2024-05-24T14:31:25.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\x64\Debug\WidgetSampleCX\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-05-24T15:00:05.645</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

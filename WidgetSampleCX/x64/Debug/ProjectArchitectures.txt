@@ -1,0 +1,1 @@
+C:\Users\Morton\Documents\GitHub\XboxGameBarWinRTs\WidgetSampleCX\WidgetSampleCX.vcxproj;x64
